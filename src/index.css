@@ -1,0 +1,151 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #ebebef;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+
+  margin: 5rem;
+}
+.container {
+  height: 50em;
+  width: 35em;
+
+  background: #14e3eb;
+
+  margin: 0 auto;
+  border-radius: 3px solid white;
+}
+.title {
+  padding: 3em 2em;
+}
+
+.container h2 {
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.underline {
+  width: 13rem;
+  height: 0.25rem;
+  background: #f161a3;
+
+  margin-right: auto;
+}
+.icon {
+  margin: 0 0 0 28em;
+}
+
+.btn {
+  background: transparent;
+  border-color: transparent;
+  width: 2rem;
+  height: 2rem;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.events {
+  padding: 0 5em 0 0;
+  margin-left: 2em;
+}
+
+section h3 {
+  text-transform: capitalize;
+  color: grey;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+section p {
+  text-transform: capitalize;
+  color: rgb(15, 0, 0);
+}
+
+.view-btn {
+  width: 20em;
+  height: 3em;
+  text-transform: capitalize;
+  margin: 3em 9.5em 0;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 2px solid #14e3eb;
+  background: rgb(255, 80, 103);
+  color: white;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background: none;
+}
+.spinner {
+  margin: 15em 30em 25em 40em;
+}
+
+@keyframes ldio-l85fkekcu0f {
+  0% {
+    transform: scale(1.1500000000000001);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.ldio-l85fkekcu0f div {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 13.333333333333336px;
+  left: 13.333333333333336px;
+  background: #e15b64;
+  animation: ldio-l85fkekcu0f 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -0.3s;
+}
+.ldio-l85fkekcu0f div:nth-child(2) {
+  top: 13.333333333333336px;
+  left: 106.66666666666666px;
+  background: #f47e60;
+  animation-delay: -0.2s;
+}
+.ldio-l85fkekcu0f div:nth-child(3) {
+  top: 106.66666666666666px;
+  left: 13.333333333333336px;
+  background: #abbd81;
+  animation-delay: 0s;
+}
+.ldio-l85fkekcu0f div:nth-child(4) {
+  top: 106.66666666666666px;
+  left: 106.66666666666666px;
+  background: #f8b26a;
+  animation-delay: -0.1s;
+}
+.loadingio-spinner-cube-qtq7jodr2g {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-l85fkekcu0f {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-l85fkekcu0f div {
+  box-sizing: content-box;
+}
